@@ -14,7 +14,10 @@ Using Docker -
 ```
 git clone https://github.com/mdnurahmed/hub
 cd hub
+#start docker containers
 docker-compose up 
+#stop docker containers
+docker-compose down
 ```
 Then go to localhost:3001 in the browser .
 
