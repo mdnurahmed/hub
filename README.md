@@ -13,7 +13,7 @@ A simple CRUD app where you can add a company, add many hubs under a company and
 Using Docker -
 ```
 git clone https://github.com/mdnurahmed/hub
-cd autocomplete-with-elasticsearch
+cd hub
 docker-compose up 
 ```
 Then go to localhost:3001 in the browser .
