@@ -82,6 +82,17 @@ class CreateHub extends React.Component {
           <Input />
         </Form.Item>
         <Form.Item
+          name="name"
+          label="Hub Name"
+          rules={[
+            {
+              required: true,
+            },
+          ]}
+        >
+          <Input />
+        </Form.Item>
+        <Form.Item
           name="address"
           label="Address"
           rules={[
